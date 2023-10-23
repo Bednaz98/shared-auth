@@ -87,3 +87,19 @@ export interface UsernameConfig {
     maxLength: number
     minLength: number
 }
+
+export interface CompositeTokenData {
+    [idHash: string]: TokenMetaData
+}
+export interface TokenIDHashData {
+    userID: string
+    app: string
+    deviceID: string
+    os: string
+}
+
+export interface TokenMetaData {
+    app: string
+    token: string | null
+    updateAt: number
+}
