@@ -1,6 +1,6 @@
 {
-  "name": "@jabz/nodetemplate",
-  "version": "1.0.3",
+  "name": "@jabz/shared-auth",
+  "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
   "publishConfig": {
@@ -41,5 +41,10 @@
   "bugs": {
     "url": "https://github.com/Bednaz98/NodeTemplate/issues"
   },
-  "homepage": "https://github.com/Bednaz98/NodeTemplate#readme"
+  "homepage": "https://github.com/Bednaz98/NodeTemplate#readme",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "owasp-password-strength-test": "^1.3.0",
+    "validate-na-number": "^1.0.1"
+  }
 }
