@@ -11,7 +11,7 @@ export function validateEmail(email: string): UserCreationResults {
 }
 
 
-export function userNameValidator(username: string, usernameConfig?: UsernameConfig): UserCreationResults {
+export function usernameValidator(username: string, usernameConfig?: UsernameConfig): UserCreationResults {
     const defaultConfig: UsernameConfig = {
         maxLength: 256,
         minLength: 6

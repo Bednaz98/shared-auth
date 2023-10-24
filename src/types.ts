@@ -1,6 +1,6 @@
 export interface NewUser {
     email: string
-    userName: string
+    username: string
     password: string
     authDevice: TwoFactorClientData
 }
